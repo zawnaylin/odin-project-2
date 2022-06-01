@@ -1,22 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
+:root {
   font-family: "Roboto", sans-serif;
+
+  --logo-main-color: #f9faf8;
+  --secondary-link-color: #e5e7eb;
+  --secondary-link-size: 18px;
+}
+
+body {
   display: flex;
   flex-direction: column;
   margin: 0;
 }
 
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10rem;
+}
+
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background-color: #1f2937;
+  justify-content: space-between;
 }
 
 .logo {
   font-size: 24px;
-  color: #f9faf8;
+  color: var(--logo-main-color);
+
 }
 
 nav ul {
@@ -27,6 +41,29 @@ nav ul {
 
 a {
   text-decoration: none;
-  font-size: 18px;
-  color: #e5e7eb;
+  font-size: var(--secondary-link-size);
+  color: var(--secondary-link-color);
+}
+
+.hero section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap : 5rem;
+  padding: 100px 0;
+}
+
+.hero div {
+  flex: 2;
+}
+
+.main-text {
+  font-size: 48px;
+  color: var(--logo-main-color);
+}
+
+.secondary-text {
+  font-size: var(--secondary-link-size);
+  color: var(--secondary-link-color)
 }
