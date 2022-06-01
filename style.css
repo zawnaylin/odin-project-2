@@ -2,7 +2,6 @@
 
 :root {
   font-family: "Roboto", sans-serif;
-
   --logo-main-color: #f9faf8;
   --secondary-link-color: #e5e7eb;
   --secondary-link-size: 18px;
@@ -116,7 +115,6 @@ a {
   align-items: center;
   text-align: center;
   width: 150px;
-
 }
 
 .info img {
@@ -163,7 +161,6 @@ a {
 .text {
   color: var(--secondary-link-color);
 }
-
 
 .advertisement .signup {
   border: 1px solid var(--secondary-link-color);
