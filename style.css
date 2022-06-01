@@ -116,3 +116,23 @@ a {
   border-radius: 10px;
   width: 100%;
 }
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 16rem;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  margin: 0;
+}
+
+.author {
+  font-size: 20px;
+  font-weight: 900;
+  align-self: flex-end;
+}
