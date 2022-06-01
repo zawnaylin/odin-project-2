@@ -67,3 +67,12 @@ a {
   font-size: var(--secondary-link-size);
   color: var(--secondary-link-color)
 }
+
+.signup {
+  background-color: #3882f6;
+  border: none;
+  color: var(--secondary-link-color);
+  display: flex;
+  padding: 4px 24px;
+  border-radius: 6px;
+}
