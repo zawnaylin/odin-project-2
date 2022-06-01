@@ -136,3 +136,14 @@ a {
   font-weight: 900;
   align-self: flex-end;
 }
+
+
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  color: var(--secondary-link-color);
+}
